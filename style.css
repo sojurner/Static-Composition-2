@@ -1,0 +1,419 @@
+/*Universals*/
+* {
+  box-sizing: border-box;
+  font-family: Herculanum;
+}
+
+@font-face {
+  font-family: Herculanum;
+  src: url(Herculanum.Alt.ttf);
+}
+
+body {
+  background-color: #CFDCE3;
+  display: grid;
+  letter-spacing: 2px;
+  }
+/*Header*/
+header {
+  height: 11.5rem;
+  margin: 0;
+}
+
+.title-login {
+  position: absolute;
+  right: 0;
+  text-align: right;
+}
+
+.header {
+  background-color: #8AB0B1;
+}
+
+.element-profile {
+  background-color: #8AB0B1;
+  background-image: url("https://cdn4.iconfinder.com/data/icons/rounded-white-basic-ui/139/Profile01-RoundedWhite-512.png");
+  background-position: 8% 45%;
+  background-repeat: no-repeat;
+  background-size: 1.7rem;
+  font-size: 1.2rem;
+  padding: 1rem 0 1rem 3rem;
+  border: none;
+  cursor: pointer;
+  }
+
+.element-profile-icon {
+  border: none;
+  background-image: url(http://icons.iconarchive.com/icons/iconsmind/outline/512/Arrow-DowninCircle-icon.png);
+  background-size: 1.4rem;
+  background-position-y: 37%;
+  background-position-x: 6%;
+  background-repeat: no-repeat;
+  padding: 1.4rem 2.2rem 1rem 0;
+  width: 1rem;
+  margin: 0 1.8vw 0 0;
+  background-color: #8AB0B1;
+  cursor: pointer;
+}
+
+.header-title {
+  display: flex;
+  justify-content: left;
+  font-size: 5rem;
+  letter-spacing: .2rem;
+  margin: 2.5rem .8vw;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.header-title:hover {
+  color: #B43D2E;
+}
+
+.title-img {
+  background-image: url('https://t7.rbxcdn.com/f537e7a0edab0d994d5fb569192ca706');
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  margin: auto 0 auto .5rem;
+  width: 5rem;
+  height: 4rem;
+}
+
+.title-img:hover {
+  background-image:url(https://img00.deviantart.net/131d/i/2017/188/2/1/aang_the_last_airbender_portrait_by_caitdesign-dbff7u3.png);
+}
+/*elements navigation bar*/
+.nav-title {
+  position: absolute;
+  margin: 6rem 0 0 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 1.7rem 0 0 0;
+  padding: 0; 
+}
+
+li {
+  font-size: 1.5rem;
+  margin: .5vw;
+  cursor: pointer;
+  display: inline;
+}
+
+.element-nav-bar {
+  background-size: 2rem;
+  background-repeat: no-repeat;
+  padding: 1rem 3rem 2rem 3rem;
+}
+
+.air {
+  background-image: url(https://vignette.wikia.nocookie.net/avatarrp/images/2/2a/Air_vector.png/revision/latest?cb=20140829200827);
+  background-size: 2.3rem;
+  background-position: 0% 12%;
+  margin: .5rem .5rem .5rem 1.3rem;
+}
+
+.air:hover {
+  color: #ADC1F6;
+}
+
+.fire {
+  background-image: url(https://www.spreadshirt.com/image-server/v1/mp/designs/11942344,width=178,height=178/fire-nation-symbol-vector.png);
+  background-size: 2.3rem;
+  background-position: 0% 12%;
+}
+
+.fire:hover {
+  color: #CB5739;
+}
+
+.water {
+  background-image: url(https://png.icons8.com/metro/1600/water-element.png);
+  background-position: 0% 15%;
+}
+
+.water:hover {
+  color: #2E6B73;
+}
+
+.earth {
+  background-image: url(https://i.imgur.com/DI4hapT.png);
+  background-position: 2% 22%;
+}
+
+.earth:hover {
+ color: #614530;
+}
+/*card layout*/
+.character-profile {
+  margin: 1rem 0;
+  font-size: 3rem;
+}
+
+.profile-cards {
+  display:grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.profile-content {
+  background-color: #E6F1F5;  
+}
+
+.profile {
+  display: grid;
+  border: solid 2px gray;
+  box-shadow: 0px 0px 20px rgba(0,0,0,.5);
+}
+/*Profile images*/
+.profile-img {
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  filter: brightness (100%);
+  filter: grayscale(70%);
+  filter: gray;
+  height: 15rem;
+  transition: 1s ease;
+}
+
+.profile-img:hover {
+  filter: grayscale(0);
+}
+
+.profile-img-aang {
+  background-color: #F9DAAC;
+  background-image: url(http://files.softicons.com/download/culture-icons/popular-anime-icons-by-iconspedia/png/256x256/Avatar-The-Last-Airbender.png);
+  background-position-y: 50%;
+  background-size: 13rem;
+}
+
+.profile-img-katara {
+  background-color: #73C2FB;
+  background-image: url(https://pre00.deviantart.net/61cd/th/pre/i/2008/206/b/2/creepy_katara_source_image_png_by_sractheninja.png);
+  background-size: 15rem;
+}
+
+.profile-img-sokka {
+  background-color: #95c8d8;
+  background-image: url(https://png.kisspng.com/20180401/iqq/kisspng-sokka-aang-katara-zuko-azula-aang-5ac1954ce050f2.2617413415226361089188.png);
+  background-position-x: 60%;
+  background-size: 18rem;
+}
+
+.profile-img-toph {
+  background-color: #D0F0C0;
+  background-image: url(https://vignette.wikia.nocookie.net/one-minute-meelee-fanon/images/f/f6/Toph4.png/revision/latest?cb=20170120191730);
+  background-size: 18rem;
+}
+
+.profile-img-ozai {
+  background-color: #C44C6B;
+  background-image: url(https://img00.deviantart.net/1da9/i/2015/021/c/0/fire_lord_ozai_colored_by_peetzaahhh2010-d8euw6v.png);
+  background-size: 25rem;
+}
+
+.profile-img-momo {
+  background-color: #A77C44;
+  background-image: url(https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/0/05/Tumblr_n8zvbhq38E1torqs8o1_500.png/revision/latest/scale-to-width-down/483?cb=20160903161233);
+  background-size: 17rem;
+}
+
+.profile-img-zuko {
+  background-color: #A45A52;
+  background-image: url(https://img00.deviantart.net/2b96/i/2017/265/a/d/zuko___avatar_the_last_airbender_render_by_georgetheotaku-dbo8txw.png);
+  background-position: 50% 104%;
+  background-size: 25rem;
+}
+
+.profile-img-iroh {
+  background-color: #A49A85;
+  background-image: url(https://i.imgur.com/Bk0cvzM.png);
+  background-size: 22rem;
+}
+
+.age {
+  display: inline-block;
+  float: right;
+  font-size: 1.3rem;
+  margin: 1rem 1rem 0 0 ; 
+  text-align: right;
+}
+
+.profile-h2-font {
+  margin: 0 1rem 3rem 0;
+  font-size: 3rem;
+  text-align: right;
+}
+/*Card Content Section*/
+.profile-h3-font {
+  text-align: left;
+}
+
+.name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 1rem 0 0 1rem;
+}
+
+.alias {
+  font-size: 1.2rem;
+  color: #ABB2B9;
+  margin: .5rem 0 0 1rem
+}
+
+.icon {
+  background-image: url(https://cdn1.iconfinder.com/data/icons/circle-outlines-colored/512/Link_Connection_Share_Connection_Chain_Social-512.png);
+  background-size: 3.4rem;
+  border-radius: 25px;
+  cursor: pointer;
+  height: 3.5rem;
+  margin: .5rem 0 0 .5rem;
+  opacity: 0.5;
+  transition: 1s ease;
+  width: 3.5rem;
+}
+
+.icon:hover {
+  opacity: 1;
+}
+
+.link {
+  background-color: #ddd;
+  height: 6rem;
+  margin: 1rem auto;
+  padding: 2rem 0 0 .5rem;
+}
+
+.element-class {
+  background: none;
+  font-size: 1.3rem;
+  height: 2.5rem;
+  margin: .5rem 0rem 1rem 1rem;
+  width: 10vw;
+}
+
+.bending-arts {
+  font-size: 1rem;
+  margin: 2rem 0 .5rem 1rem;
+}
+
+.rating {
+  font-size: 1.3rem;
+  margin: 0 0 .5rem 1rem;
+}
+
+.profile-h3-font {
+  color: #1ABC9C;
+  font-size: 2.5rem;
+  margin: 0 0 1.5rem 1rem;
+}
+/*Media Queries*/
+@media screen and (max-width: 1375px) {
+  .profile-cards {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+  .profile {
+    grid-column: 2 span;
+  }
+
+  .aang {
+    grid-column: 3 span;
+  }
+
+  .katara {
+    grid-column: 3 span;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+
+  li {
+    margin: 0;
+    padding: 1.5rem 3rem 0rem 4rem;
+  }
+
+  .air {
+    background-position: 13% 0; 
+    padding: 1rem 3rem 2rem 4rem;
+  }
+
+  .water {
+    background-position: 20% 15%;
+    padding: 1rem 2rem 2rem 4.7rem; 
+  }
+
+  .fire {
+    background-position: 0 19%;
+    padding: 1.1rem 0rem 0rem 3rem;
+  }
+
+  .nav-title {
+    margin: 0;
+  }
+
+  .profile-cards {
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .profile {
+    grid-column: 1 span;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  
+  .profile-cards {
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  ul { 
+  width: 100vw;
+  position: absolute;
+  margin: 8.5rem 0 0 2rem ;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  text-align: left;
+  }
+
+  .element-nav-bar {
+    background-image: none;
+    margin: 0;
+    padding: 1rem 0;
+  }
+
+  .earth {
+    padding: 1rem 0 0 1.2rem;
+  }
+
+  .title-img {
+    background-position: 0 35%;
+    background-size: 2.7rem;
+  }
+
+  .header-title {
+    background-size: 1rem;
+    font-size: 3.5rem;
+    margin: .8rem 10vw 0 0;
+  }
+}
+
+
+
