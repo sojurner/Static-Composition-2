@@ -148,7 +148,7 @@ li {
 }
 /*card layout*/
 .character-profile {
-  margin: 1rem 0;
+  margin: 2.5rem 0;
   font-size: 3rem;
 }
 
@@ -175,7 +175,7 @@ li {
   filter: brightness (100%);
   filter: grayscale(70%);
   filter: gray;
-  height: 15rem;
+  height: 14rem;
   transition: 1s ease;
 }
 
