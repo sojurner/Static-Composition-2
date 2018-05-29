@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: Herculanum;
-  src: url(Herculanum.Alt.ttf);
+  src: url(Herculanum.ttf);
 }
 
 body {
@@ -59,12 +59,12 @@ header {
 .header-title {
   display: flex;
   justify-content: left;
-  font-size: 5rem;
-  letter-spacing: .2rem;
-  margin: 2.5rem .8vw;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  transition: all 1s ease;
+  background-image: url(http://dani-kelley.com/wp/wp-content/uploads/2011/03/avatar-the-last-airbender-5231f2c26b1d2.png);
+  background-size: 16rem;
+  width: 20rem;
+  height: 7rem;
+  background-repeat: no-repeat;
+  margin: 1.2rem 1.9rem auto 0;
 }
 
 .header-title:hover {
@@ -75,7 +75,7 @@ header {
   background-image: url('https://t7.rbxcdn.com/f537e7a0edab0d994d5fb569192ca706');
   background-repeat: no-repeat;
   background-size: 4rem;
-  margin: auto 0 auto .5rem;
+  margin: auto 0 auto 16rem;
   width: 5rem;
   height: 4rem;
 }
@@ -409,15 +409,9 @@ a {
     padding: 1rem 0 0 1.2rem;
   }
 
-  .title-img {
-    background-position: 0 35%;
-    background-size: 2.7rem;
-  }
-
   .header-title {
-    background-size: 1rem;
-    font-size: 3.5rem;
-    margin: .8rem 10vw 0 0;
+    margin: 0 10vw 0 0;
+    height: 5rem;
   }
 }
 
