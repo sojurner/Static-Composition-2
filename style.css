@@ -175,7 +175,7 @@ li {
   filter: brightness (100%);
   filter: grayscale(70%);
   filter: gray;
-  height: 14rem;
+  height: 13rem;
   transition: 1s ease;
 }
 
@@ -206,13 +206,14 @@ li {
 .profile-img-toph {
   background-color: #D0F0C0;
   background-image: url(https://vignette.wikia.nocookie.net/one-minute-meelee-fanon/images/f/f6/Toph4.png/revision/latest?cb=20170120191730);
-  background-size: 18rem;
+  background-size: 17rem;
 }
 
 .profile-img-ozai {
   background-color: #C44C6B;
   background-image: url(https://img00.deviantart.net/1da9/i/2015/021/c/0/fire_lord_ozai_colored_by_peetzaahhh2010-d8euw6v.png);
-  background-size: 25rem;
+  background-size: 28rem;
+  background-position: 50% 20%;
 }
 
 .profile-img-momo {
@@ -225,13 +226,14 @@ li {
   background-color: #A45A52;
   background-image: url(https://img00.deviantart.net/2b96/i/2017/265/a/d/zuko___avatar_the_last_airbender_render_by_georgetheotaku-dbo8txw.png);
   background-position: 50% 104%;
-  background-size: 25rem;
+  background-size: 22rem;
 }
 
 .profile-img-iroh {
   background-color: #A49A85;
   background-image: url(https://i.imgur.com/Bk0cvzM.png);
   background-size: 22rem;
+  background-position: 50% 15%;
 }
 
 .age {
