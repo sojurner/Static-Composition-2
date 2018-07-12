@@ -1,6 +1,7 @@
 # Static-Composition-2
 
-## Rubric:
+Rubric:
 http://frontend.turing.io/projects/m1-static-comp-2.html
 
-## Theme: Avatar-Last Airbender
+Theme: Avatar-Last Airbender
+
